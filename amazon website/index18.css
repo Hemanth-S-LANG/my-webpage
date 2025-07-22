@@ -1,0 +1,270 @@
+*{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+    
+}
+.one{
+    height: 60px;
+    background-color: #0f1111;
+    color:white;
+    display: flex;
+     align-items: center; 
+     justify-content:space-evenly;  
+}
+.nav-logo{
+    height: 50px;
+    width: 100px;
+}
+.logo{
+    height: 50px;
+    width: 100%;
+    background-image: url("amazon.jpeg"); 
+    background-size: cover;
+}
+.border{
+     border:1.5px solid transparent; 
+     cursor: pointer;
+
+}
+.border:hover{
+    border:1.5px solid white
+}
+.borders{
+     border:1.5px solid transparent; 
+     cursor: pointer;
+
+}
+.borders:hover{
+    border:1.5px solid white
+}
+.add-first{
+    color:#cccccc;
+    font-size:0.85rem;
+    margin-left:15px;
+ }
+ .add-second{
+    font-size:1rem;
+    margin-left:3px;
+ }
+ .add-icon{
+    display:flex;
+    align-items:center;
+ }
+ /* search box */
+ .nav-search{
+    display: flex;
+    height: 40px;
+    width:620px;
+border-radius:4px; }
+
+.search-select{
+    background-color: #f3f3f3;
+    text-align: center;
+    width:50px;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border:none;
+}
+.search-input{
+    width:500px;
+    font-size:1rem;
+    border:none;
+}
+.search-icon{
+    width:45px;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    font-size: 1.2rem;
+    background-color: #febd68;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;}
+
+/* for the boxes after the search icon */
+span{
+    font-size: 0.7rem;
+}
+.nav-second{
+    font-size:0.85rem;
+    font-weight:700;
+}
+
+/*  to get the yellow outline whwn u hover to search on the search bar */
+.nav-search:hover{
+    border:2px solid orange;
+}
+
+/* for cart box */
+/* in the line 91 we are changing only the icon of the class nav-cart */
+
+.nav-cart i{
+font-size:30px;
+}
+/* setting the font size of the word cart */
+.nav-cart{
+    font-size:0.85rem;
+    font-weight:700;
+    
+}
+/* panel- from all to sell and shop deals */
+.panel{
+    height: 40px;
+    background-color: #222f3d;
+    display:flex;
+    color:white;
+    align-items: center;
+    justify-content: space-evenly;}
+
+    .panel-ops {
+        display: flex;
+        justify-content: space-evenly;
+        
+        margin-left: 15px;
+    }
+
+    .panel-ops{
+        width:98%;
+        font-size: 0.85rem;
+        border:1.5px solid transparent; 
+
+    }
+    /* .panel-ops:hover{ */
+        /* border:1.5px solid white */
+    /* } */
+    .panel-deals{
+        font-size: 0.85rem;
+        font-weight: 700;
+    }
+    .all{
+    margin-left: 9px;
+    display: flex;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.hero-section{
+    background-image: url("hero_image.jpeg");
+    background-size: cover;
+    height: 300px;
+    z-index: -1;}
+
+
+.shop-section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #e2e7e6;
+    z-index: 10;
+}
+.box{
+    /* border:2px solid black; */
+    height:400px;
+    width:23%;
+    background-color: white;
+    padding: 20px 0px 15px;
+
+    margin-top:15px;
+    z-index: 10;
+
+}
+.box-img{
+    height: 300px;
+    background-size: cover;
+    /* background-repeat: no-repeat; */
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.box-content{
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+.box-content p{
+    color:#007185;
+}
+.foot-panel1{
+    background-color: #37475a;
+    color:white;
+    height:50px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size:0.85rem;
+}
+.footer{
+    margin-top: 15px;
+}
+.foot-panel2{
+    background-color: #222f3d;
+    color:white;
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+}
+ul a{
+     display:block ;
+     font-size:0.85rem;
+     margin:10px;
+     color:#dddddd
+}
+
+.foot-panel3{
+    background-color: #222f3d;
+    color:white;
+    border-top:0.5px solid white;
+    height:70px;
+    display: flex;
+    justify-content: center;
+    align-items:center ;}
+
+.logos{
+    height: 50px;
+    width: 70px;
+    background-image: url("amazon.jpg"); 
+    /* background-size: cover; */
+    /* color: white; */
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.foot-panel4{
+    background-color: #0f1111;
+    color:white;
+    height: 80px;}
+.pages{
+    font-size:0.7rem;
+    text-align:center;
+    padding-top:25px;
+}
+.copy-right{
+    font-size:0.7rem;
+    text-align:center;
+    padding-top: 5px;
+}
+#rod:visited{
+color:#007185;
+}
+#flag{
+    width: 21.6px;
+    margin-right: 2px;
+    margin-bottom: 1px;
+    /* height: 22px; */
+    
+}
+.flag-border{
+    display: flex;
+    justify-content: space-evenly;}
+    
+.flag-border i{
+    margin-top: 3px;
+} 
+#one{
+    border:none;
+    outline: none;
+    height:15px;
+    font-weight: bolder;
+    margin-top: 2px;
+    cursor: pointer;
+    background-color:#0f1111 ;
+    color: white;
+
+}

@@ -1,0 +1,30 @@
+div{
+    width:100px;
+    height:100px;
+    margin:25px;
+    display:inline-block;
+    
+}
+#hi{
+     visibility: hidden; 
+    
+}
+#Hi{
+     background-color: rgba(0, 255,0, 0.7); /*this is alpha which changes the opacity */
+    border-radius: 30px;
+}
+#box2{
+     height:30vh; /*vh-viewport height or website height */
+    width:35%;
+    margin-right: 10%;
+    font-size: 2em;
+    width:3em;
+    
+}
+#box{
+    width:100px;
+    height:100px;
+    margin:25px;
+    display:inline-block;
+    font-size: 10px;
+}

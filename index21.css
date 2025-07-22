@@ -1,0 +1,66 @@
+#div_main{
+    width:100%;
+    height:1340px;
+    background-color: aqua;
+    padding:0px 10px;
+    
+}
+#pictures{
+    /* width:330px;
+    height:410px; */
+    display:flex;
+    flex-wrap: wrap; 
+    justify-content: space-evenly;
+}
+#main_box{
+    width: 306px;
+    
+     display: flex; 
+     justify-content:space-evenly;
+
+    background-color:azure;
+    padding: 10px 10px;
+    margin:0px 0px 44px;
+    flex-wrap: wrap; 
+    height:410px;
+}
+#heading{
+    width:266.66px;
+    height:54.6px;
+    /* background-color: blue; */
+}
+.picture{
+    width:123.86px;
+    height:102.2px;
+    /* background-color: aquamarine; */
+}
+#picture_content{
+    width: 126.66px;
+    height:36px;
+}
+#see{
+    width:266.66px;
+    height:16.9px;
+    color: #2162a1;
+    
+}
+#image1{
+    background-image: url("image1.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#image2{
+    background-image: url("image2.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#image3{
+    background-image: url("image3.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#image4{
+    background-image: url("image4.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}

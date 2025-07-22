@@ -1,0 +1,25 @@
+div{
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    border:2px solid black;
+    display: inline-block;
+    
+}
+#rod{
+    position: static;
+}
+#rodakka{
+    position:relative;
+    top:10px;
+    right:10px;
+}
+#rodkaakka{
+    position: fixed;
+    top:0px
+}
+#roood{
+    position: sticky;
+    bottom:0px;
+    left:20px;
+}

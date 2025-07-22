@@ -1,0 +1,25 @@
+div{
+    background-color: aqua;
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+}
+#box1{
+     position: static;  /* now u cannot change the position of box1 to left ,right or top or bottom  and even z-index alsoif u do so it will not move */
+}
+#box2{
+    position:relative;  /*it will move with relative to its previous position */
+    top:30px
+}
+#box3{
+     position: absolute;/* moves with respect to body tag or closest positioned ancestor */
+     top:10px;
+     
+
+}
+#box4{
+    position: fixed;/*moves with respect to browser */
+    top:10px;
+    right:0px;     
+
+}
