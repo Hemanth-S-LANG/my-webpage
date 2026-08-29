@@ -33,6 +33,7 @@
 .borders{
      border:1.5px solid transparent; 
      cursor: pointer;
+     font-size:smaller;
 
 }
 .borders:hover{
@@ -119,14 +120,16 @@ font-size:30px;
     .panel-ops {
         display: flex;
         justify-content: space-evenly;
+        position: relative;
         
-        margin-left: 15px;
+        /* margin-left: 15px; */
     }
 
     .panel-ops{
         width:98%;
         font-size: 0.85rem;
         border:1.5px solid transparent; 
+        position: relative;
 
     }
     /* .panel-ops:hover{ */
@@ -145,8 +148,11 @@ font-size:30px;
 .hero-section{
     background-image: url("hero_image.jpeg");
     background-size: cover;
-    height: 300px;
-    z-index: -1;}
+    height: 250px;
+    /* position:relative; */
+    
+    /* z-index: -1;} */
+}
 
 
 .shop-section{
@@ -178,6 +184,9 @@ font-size:30px;
 .box-content{
     margin-left: 1rem;
     margin-right: 1rem;
+    position:relative;
+    top:0px;
+    
 }
 .box-content p{
     color:#007185;
